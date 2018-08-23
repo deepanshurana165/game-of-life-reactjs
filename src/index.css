@@ -1,0 +1,47 @@
+body {
+  background-image: url(https://i.ytimg.com/vi/qBnmy7d2JSc/maxresdefault.jpg)
+}
+
+.box {
+  display: inline-block;
+  border: .5px solid white;
+  width: 15px;
+  height: 15px;
+}
+
+.off {
+  background-color: #ffca28;
+}
+
+.on {
+  background-color: #dd2c00;
+}
+
+.box:hover {
+  background: #00CCFF;
+}
+
+.center {
+  margin: auto;
+  display: table;
+  /*margin-top: 10px;*/
+}
+
+.grid {
+  line-height: 0;
+  margin: auto;
+  /*box-shadow: 0 0 20px white;*/
+  margin-top: 20px;
+}
+
+/*h1, h2, h3, h4 {*/
+  /*color: white;*/
+  /*margin: auto;*/
+  /*text-align: center;*/
+  /*width: 50%;*/
+  /*margin-top: 10px;*/
+/*}*/
+
+h5 {
+  color: white;
+}
